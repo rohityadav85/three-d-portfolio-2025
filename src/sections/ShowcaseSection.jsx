@@ -49,16 +49,15 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
+              <img src="/images/project1.png" alt="Ai Powered LMS (Full Stack) " />
             </div>
             <div className="text-content">
               <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
+                AI-Powered Learning Management System (LMS) - Full Stack Project
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
-                user-friendly experience.
+                An web- app built with MERN Stack - React.Js, NodeJs, Express.Js & TailwindCSS for a fast,
+                user-friendly experience. wirh AI integration for smart content search/ course search
               </p>
             </div>
           </div>
@@ -71,14 +70,14 @@ const AppShowcase = () => {
                   alt="Library Management Platform"
                 />
               </div>
-              <h2>The Library Management Platform</h2>
+              <h2>AI ChatBot</h2>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
                 <img src="/images/project3.png" alt="YC Directory App" />
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>Tomato - A Reel based Food Showcase & Delivery App</h2>
             </div>
           </div>
         </div>
